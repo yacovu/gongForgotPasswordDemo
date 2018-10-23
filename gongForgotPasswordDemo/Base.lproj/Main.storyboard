@@ -6,6 +6,7 @@
     <dependencies>
         <deployment identifier="iOS"/>
         <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="14088"/>
+        <capability name="Constraints to layout margins" minToolsVersion="6.0"/>
         <capability name="Safe area layout guides" minToolsVersion="9.0"/>
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
     </dependencies>
@@ -28,8 +29,18 @@
                                     <constraint firstAttribute="height" constant="64" id="cMK-fd-UoE"/>
                                 </constraints>
                             </imageView>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="FORGOT YOUR PASSWORD?" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" minimumFontSize="14" translatesAutoresizingMaskIntoConstraints="NO" id="Gnv-kr-uIj">
-                                <rect key="frame" x="25" y="263" width="326" height="101"/>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Enter your email address and we will send you instructions on how to reset your password" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="2" baselineAdjustment="alignBaselines" minimumFontSize="10" translatesAutoresizingMaskIntoConstraints="NO" id="jV6-fo-Rbn">
+                                <rect key="frame" x="38" y="305" width="300" height="48"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="20"/>
+                                <color key="textColor" red="0.99999600649999998" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="FORGOT YOUR PASSWORD?" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Gnv-kr-uIj">
+                                <rect key="frame" x="0.0" y="263" width="375" height="34"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="34" id="bGO-mw-u8k"/>
+                                    <constraint firstAttribute="width" constant="375" id="d9b-OP-4ZQ"/>
+                                </constraints>
                                 <fontDescription key="fontDescription" type="system" pointSize="28"/>
                                 <color key="textColor" red="0.96999999999999997" green="0.80000000000000004" blue="0.02" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 <nil key="highlightedColor"/>
@@ -37,16 +48,17 @@
                         </subviews>
                         <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                         <constraints>
-                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="bottom" secondItem="Gnv-kr-uIj" secondAttribute="bottom" constant="414" id="MZ8-N5-tjU"/>
-                            <constraint firstItem="Gnv-kr-uIj" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="25" id="MqE-8E-xN1"/>
+                            <constraint firstItem="Gnv-kr-uIj" firstAttribute="top" secondItem="DND-Tq-UgW" secondAttribute="bottom" constant="103" id="6P3-yD-JO7"/>
+                            <constraint firstItem="jV6-fo-Rbn" firstAttribute="top" secondItem="Gnv-kr-uIj" secondAttribute="bottom" constant="8" id="HjR-MO-Njq"/>
                             <constraint firstItem="iH7-EJ-gXt" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leading" id="Qd6-qT-ayg"/>
-                            <constraint firstItem="Gnv-kr-uIj" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" constant="219" id="VBJ-P7-Mfi"/>
                             <constraint firstAttribute="bottom" secondItem="iH7-EJ-gXt" secondAttribute="bottom" id="XND-Bf-ppk"/>
                             <constraint firstAttribute="trailing" secondItem="iH7-EJ-gXt" secondAttribute="trailing" id="ZC9-U2-fvw"/>
+                            <constraint firstItem="Gnv-kr-uIj" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leadingMargin" constant="-16" id="Zsf-tB-bda"/>
                             <constraint firstItem="DND-Tq-UgW" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" constant="52" id="eMg-LQ-Rj1"/>
-                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="Gnv-kr-uIj" secondAttribute="trailing" constant="24" id="eVs-hm-svC"/>
                             <constraint firstItem="DND-Tq-UgW" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="46" id="hjA-na-Yh3"/>
                             <constraint firstItem="iH7-EJ-gXt" firstAttribute="top" secondItem="8bC-Xf-vdC" secondAttribute="top" id="jlP-CT-Bdg"/>
+                            <constraint firstItem="jV6-fo-Rbn" firstAttribute="trailing" secondItem="6Tk-OE-BBY" secondAttribute="trailing" constant="-37" id="lak-et-OBV"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="leading" secondItem="jV6-fo-Rbn" secondAttribute="leading" constant="-38" id="vCs-Hd-Fih"/>
                         </constraints>
                         <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
                     </view>
