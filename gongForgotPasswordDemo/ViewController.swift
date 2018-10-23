@@ -10,9 +10,13 @@ import UIKit
 
 class ViewController: UIViewController {
 
+    @IBOutlet weak var emailInputLabel: UITextField!
+    
     override func viewDidLoad() {
         super.viewDidLoad()
-        // Do any additional setup after loading the view, typically from a nib.
+        self.emailInputLabel.layer.cornerRadius = 17
+        self.emailInputLabel.layer.borderWidth = 1
+        self.emailInputLabel.layer.borderColor = UIColor.white.cgColor
     }
 
     override func didReceiveMemoryWarning() {
