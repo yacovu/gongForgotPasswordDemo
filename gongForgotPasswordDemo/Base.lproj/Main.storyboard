@@ -73,21 +73,56 @@
                                 <color key="textColor" red="0.99999600649999998" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 <nil key="highlightedColor"/>
                             </label>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="login_button_okta" translatesAutoresizingMaskIntoConstraints="NO" id="55c-jR-fFS">
+                                <rect key="frame" x="68" y="617" width="50.666666666666657" height="50.666666666666629"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="50.609999999999999" id="GJP-RR-yQh"/>
+                                    <constraint firstAttribute="width" constant="50.609999999999999" id="mSm-fj-TFf"/>
+                                </constraints>
+                            </imageView>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="login_button_office365" translatesAutoresizingMaskIntoConstraints="NO" id="O7R-IR-fJF">
+                                <rect key="frame" x="129" y="617" width="50.666666666666657" height="50.666666666666629"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="50.609999999999999" id="IPt-RG-YCn"/>
+                                    <constraint firstAttribute="width" constant="50.609999999999999" id="q6V-KQ-naP"/>
+                                </constraints>
+                            </imageView>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="login_button-google_plus" translatesAutoresizingMaskIntoConstraints="NO" id="LpK-TI-tK2">
+                                <rect key="frame" x="190" y="617" width="50.666666666666657" height="50.666666666666629"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="50.609999999999999" id="aAu-jq-Kra"/>
+                                    <constraint firstAttribute="width" constant="50.609999999999999" id="lWl-Ox-5QY"/>
+                                </constraints>
+                            </imageView>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="login_button_salesforce" translatesAutoresizingMaskIntoConstraints="NO" id="v8U-RZ-Oq8">
+                                <rect key="frame" x="250.99999999999997" y="617" width="50.666666666666657" height="50.666666666666629"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="50.609999999999999" id="mei-p1-TAZ"/>
+                                    <constraint firstAttribute="height" constant="50.609999999999999" id="y7H-AJ-kIS"/>
+                                </constraints>
+                            </imageView>
                         </subviews>
                         <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                         <constraints>
+                            <constraint firstItem="55c-jR-fFS" firstAttribute="top" secondItem="r6k-Af-QVZ" secondAttribute="bottom" constant="11" id="3oL-Su-Znv"/>
                             <constraint firstItem="Gnv-kr-uIj" firstAttribute="top" secondItem="DND-Tq-UgW" secondAttribute="bottom" constant="103" id="6P3-yD-JO7"/>
                             <constraint firstItem="Gnv-kr-uIj" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="6" id="7Yk-JK-1gt"/>
+                            <constraint firstItem="55c-jR-fFS" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="68" id="8cd-kr-uBT"/>
+                            <constraint firstItem="v8U-RZ-Oq8" firstAttribute="top" secondItem="r6k-Af-QVZ" secondAttribute="bottom" constant="11" id="Fkj-6z-kYP"/>
                             <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="iGh-lY-zmS" secondAttribute="trailing" constant="37" id="GJE-i0-HeN"/>
                             <constraint firstItem="jV6-fo-Rbn" firstAttribute="top" secondItem="Gnv-kr-uIj" secondAttribute="bottom" constant="8" id="HjR-MO-Njq"/>
                             <constraint firstItem="6aj-wu-YGY" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="81" id="ODB-5x-etS"/>
+                            <constraint firstItem="LpK-TI-tK2" firstAttribute="leading" secondItem="O7R-IR-fJF" secondAttribute="trailing" constant="10.390000000000001" id="OFR-P2-XmI"/>
                             <constraint firstItem="r6k-Af-QVZ" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="123" id="QEL-QU-qVo"/>
                             <constraint firstItem="iH7-EJ-gXt" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leading" id="Qd6-qT-ayg"/>
                             <constraint firstAttribute="bottom" secondItem="iH7-EJ-gXt" secondAttribute="bottom" id="XND-Bf-ppk"/>
                             <constraint firstAttribute="trailing" relation="greaterThanOrEqual" secondItem="6aj-wu-YGY" secondAttribute="trailing" constant="20" symbolic="YES" id="Ye1-1v-tVX"/>
+                            <constraint firstItem="LpK-TI-tK2" firstAttribute="top" secondItem="r6k-Af-QVZ" secondAttribute="bottom" constant="11" id="Z5S-6I-cHh"/>
                             <constraint firstAttribute="trailing" secondItem="iH7-EJ-gXt" secondAttribute="trailing" id="ZC9-U2-fvw"/>
+                            <constraint firstItem="O7R-IR-fJF" firstAttribute="leading" secondItem="55c-jR-fFS" secondAttribute="trailing" constant="10.390000000000001" id="ZoM-gF-kgi"/>
                             <constraint firstItem="6aj-wu-YGY" firstAttribute="top" secondItem="iGh-lY-zmS" secondAttribute="bottom" constant="50" id="e6J-M7-La8"/>
                             <constraint firstItem="DND-Tq-UgW" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" constant="52" id="eMg-LQ-Rj1"/>
+                            <constraint firstItem="O7R-IR-fJF" firstAttribute="top" secondItem="r6k-Af-QVZ" secondAttribute="bottom" constant="11" id="h4h-FJ-NCj"/>
                             <constraint firstItem="V1v-eI-pb2" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="38" id="hYP-cp-OVu"/>
                             <constraint firstItem="DND-Tq-UgW" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="46" id="hjA-na-Yh3"/>
                             <constraint firstItem="iH7-EJ-gXt" firstAttribute="top" secondItem="8bC-Xf-vdC" secondAttribute="top" id="jlP-CT-Bdg"/>
@@ -98,6 +133,7 @@
                             <constraint firstItem="6Tk-OE-BBY" firstAttribute="leading" secondItem="jV6-fo-Rbn" secondAttribute="leading" constant="-38" id="vCs-Hd-Fih"/>
                             <constraint firstAttribute="trailing" relation="greaterThanOrEqual" secondItem="Gnv-kr-uIj" secondAttribute="trailing" constant="9" id="xGt-1J-4KS"/>
                             <constraint firstItem="iGh-lY-zmS" firstAttribute="top" secondItem="V1v-eI-pb2" secondAttribute="bottom" constant="19" id="zio-fJ-RHI"/>
+                            <constraint firstItem="v8U-RZ-Oq8" firstAttribute="leading" secondItem="LpK-TI-tK2" secondAttribute="trailing" constant="10.390000000000001" id="zmN-Ha-aa5"/>
                         </constraints>
                         <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
                     </view>
@@ -111,5 +147,9 @@
         <image name="login-bg" width="375" height="667"/>
         <image name="login-button-with-bg-1" width="137" height="45"/>
         <image name="login-logo" width="136" height="85"/>
+        <image name="login_button-google_plus" width="51" height="51"/>
+        <image name="login_button_office365" width="51" height="51"/>
+        <image name="login_button_okta" width="51" height="51"/>
+        <image name="login_button_salesforce" width="52" height="51"/>
     </resources>
 </document>
