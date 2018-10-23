@@ -29,7 +29,7 @@
                                 </constraints>
                             </imageView>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="FORGOT YOUR PASSWORD?" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Gnv-kr-uIj">
-                                <rect key="frame" x="6" y="263" width="360" height="34"/>
+                                <rect key="frame" x="7.6666666666666572" y="263" width="360" height="34"/>
                                 <constraints>
                                     <constraint firstAttribute="height" constant="34" id="bGO-mw-u8k"/>
                                 </constraints>
@@ -106,7 +106,6 @@
                         <constraints>
                             <constraint firstItem="55c-jR-fFS" firstAttribute="top" secondItem="r6k-Af-QVZ" secondAttribute="bottom" constant="11" id="3oL-Su-Znv"/>
                             <constraint firstItem="Gnv-kr-uIj" firstAttribute="top" secondItem="DND-Tq-UgW" secondAttribute="bottom" constant="103" id="6P3-yD-JO7"/>
-                            <constraint firstItem="Gnv-kr-uIj" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="6" id="7Yk-JK-1gt"/>
                             <constraint firstItem="55c-jR-fFS" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="68" id="8cd-kr-uBT"/>
                             <constraint firstItem="v8U-RZ-Oq8" firstAttribute="top" secondItem="r6k-Af-QVZ" secondAttribute="bottom" constant="11" id="Fkj-6z-kYP"/>
                             <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="iGh-lY-zmS" secondAttribute="trailing" constant="37" id="GJE-i0-HeN"/>
@@ -122,6 +121,7 @@
                             <constraint firstItem="O7R-IR-fJF" firstAttribute="leading" secondItem="55c-jR-fFS" secondAttribute="trailing" constant="10.390000000000001" id="ZoM-gF-kgi"/>
                             <constraint firstItem="6aj-wu-YGY" firstAttribute="top" secondItem="iGh-lY-zmS" secondAttribute="bottom" constant="50" id="e6J-M7-La8"/>
                             <constraint firstItem="DND-Tq-UgW" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" constant="52" id="eMg-LQ-Rj1"/>
+                            <constraint firstItem="Gnv-kr-uIj" firstAttribute="centerX" secondItem="6Tk-OE-BBY" secondAttribute="centerX" id="g5D-a3-OJc"/>
                             <constraint firstItem="O7R-IR-fJF" firstAttribute="top" secondItem="r6k-Af-QVZ" secondAttribute="bottom" constant="11" id="h4h-FJ-NCj"/>
                             <constraint firstItem="V1v-eI-pb2" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="38" id="hYP-cp-OVu"/>
                             <constraint firstItem="DND-Tq-UgW" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="46" id="hjA-na-Yh3"/>
@@ -131,7 +131,6 @@
                             <constraint firstItem="V1v-eI-pb2" firstAttribute="top" secondItem="jV6-fo-Rbn" secondAttribute="bottom" constant="25" id="sOj-au-hX7"/>
                             <constraint firstAttribute="trailing" relation="greaterThanOrEqual" secondItem="r6k-Af-QVZ" secondAttribute="trailing" constant="20" symbolic="YES" id="swJ-em-lGX"/>
                             <constraint firstItem="6Tk-OE-BBY" firstAttribute="leading" secondItem="jV6-fo-Rbn" secondAttribute="leading" constant="-38" id="vCs-Hd-Fih"/>
-                            <constraint firstAttribute="trailing" relation="greaterThanOrEqual" secondItem="Gnv-kr-uIj" secondAttribute="trailing" constant="9" id="xGt-1J-4KS"/>
                             <constraint firstItem="iGh-lY-zmS" firstAttribute="top" secondItem="V1v-eI-pb2" secondAttribute="bottom" constant="19" id="zio-fJ-RHI"/>
                             <constraint firstItem="v8U-RZ-Oq8" firstAttribute="leading" secondItem="LpK-TI-tK2" secondAttribute="trailing" constant="10.390000000000001" id="zmN-Ha-aa5"/>
                         </constraints>
