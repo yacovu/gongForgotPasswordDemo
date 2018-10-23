@@ -116,17 +116,16 @@
                                     <constraint firstAttribute="height" constant="15" id="xDB-Qo-Ztx"/>
                                 </constraints>
                             </stackView>
-                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" text="Enter your email address and we will send you instructions on how to reset your password" textAlignment="center" translatesAutoresizingMaskIntoConstraints="NO" id="2RU-Ym-K1D">
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Enter your email address and we will send you instructions on how to reset your password" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="2" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="ohF-CD-QSf">
                                 <rect key="frame" x="37" y="305" width="300" height="36"/>
-                                <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 <constraints>
-                                    <constraint firstAttribute="width" constant="300" id="jqD-ap-n1p"/>
-                                    <constraint firstAttribute="height" constant="36" id="ykA-or-nB1"/>
+                                    <constraint firstAttribute="height" constant="36" id="RKe-GS-6at"/>
+                                    <constraint firstAttribute="width" constant="300" id="aeJ-fB-2MN"/>
                                 </constraints>
-                                <color key="textColor" red="0.99999600649999998" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="13"/>
-                                <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
-                            </textView>
+                                <color key="textColor" red="0.99999600649999998" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
                         </subviews>
                         <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                         <constraints>
@@ -135,19 +134,19 @@
                             <constraint firstItem="Gnv-kr-uIj" firstAttribute="top" secondItem="DND-Tq-UgW" secondAttribute="bottom" constant="103" id="6P3-yD-JO7"/>
                             <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="iGh-lY-zmS" secondAttribute="trailing" constant="37" id="GJE-i0-HeN"/>
                             <constraint firstItem="r6k-Af-QVZ" firstAttribute="centerX" secondItem="6Tk-OE-BBY" secondAttribute="centerX" id="IjG-5b-xVr"/>
-                            <constraint firstItem="2RU-Ym-K1D" firstAttribute="centerX" secondItem="6Tk-OE-BBY" secondAttribute="centerX" id="L3n-GG-tTB"/>
                             <constraint firstItem="V1v-eI-pb2" firstAttribute="centerX" secondItem="6Tk-OE-BBY" secondAttribute="centerX" id="Ojk-QB-E2F"/>
                             <constraint firstItem="iH7-EJ-gXt" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leading" id="Qd6-qT-ayg"/>
                             <constraint firstItem="r6k-Af-QVZ" firstAttribute="top" secondItem="1lw-5F-TFP" secondAttribute="bottom" constant="51" id="RJ8-F9-9vx"/>
-                            <constraint firstItem="V1v-eI-pb2" firstAttribute="top" secondItem="2RU-Ym-K1D" secondAttribute="bottom" constant="25" id="Upb-bG-PwC"/>
                             <constraint firstAttribute="bottom" secondItem="iH7-EJ-gXt" secondAttribute="bottom" id="XND-Bf-ppk"/>
                             <constraint firstAttribute="trailing" secondItem="iH7-EJ-gXt" secondAttribute="trailing" id="ZC9-U2-fvw"/>
                             <constraint firstItem="1lw-5F-TFP" firstAttribute="top" secondItem="iGh-lY-zmS" secondAttribute="bottom" constant="50" id="aps-Wi-tRt"/>
+                            <constraint firstItem="V1v-eI-pb2" firstAttribute="top" secondItem="ohF-CD-QSf" secondAttribute="bottom" constant="25" id="eCh-OV-QfT"/>
                             <constraint firstItem="DND-Tq-UgW" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" constant="52" id="eMg-LQ-Rj1"/>
                             <constraint firstItem="Gnv-kr-uIj" firstAttribute="centerX" secondItem="6Tk-OE-BBY" secondAttribute="centerX" id="g5D-a3-OJc"/>
                             <constraint firstItem="DND-Tq-UgW" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="46" id="hjA-na-Yh3"/>
+                            <constraint firstItem="ohF-CD-QSf" firstAttribute="centerX" secondItem="6Tk-OE-BBY" secondAttribute="centerX" id="jTg-Px-dBh"/>
                             <constraint firstItem="iH7-EJ-gXt" firstAttribute="top" secondItem="8bC-Xf-vdC" secondAttribute="top" id="jlP-CT-Bdg"/>
-                            <constraint firstItem="2RU-Ym-K1D" firstAttribute="top" secondItem="Gnv-kr-uIj" secondAttribute="bottom" constant="8" id="rN0-MU-PaI"/>
+                            <constraint firstItem="ohF-CD-QSf" firstAttribute="top" secondItem="Gnv-kr-uIj" secondAttribute="bottom" constant="8" id="k9a-Ly-twx"/>
                             <constraint firstItem="1lw-5F-TFP" firstAttribute="centerX" secondItem="6Tk-OE-BBY" secondAttribute="centerX" id="v1y-nI-PQ0"/>
                             <constraint firstItem="iGh-lY-zmS" firstAttribute="top" secondItem="V1v-eI-pb2" secondAttribute="bottom" constant="19" id="zio-fJ-RHI"/>
                         </constraints>
