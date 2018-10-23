@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="14109" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="BYZ-38-t0r">
-    <device id="retina5_9" orientation="portrait">
+    <device id="retina4_0" orientation="portrait">
         <adaptation id="fullscreen"/>
     </device>
     <dependencies>
@@ -16,112 +16,84 @@
             <objects>
                 <viewController id="BYZ-38-t0r" customClass="ViewController" customModule="gongForgotPasswordDemo" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
-                        <rect key="frame" x="0.0" y="0.0" width="375" height="812"/>
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="login-bg" translatesAutoresizingMaskIntoConstraints="NO" id="iH7-EJ-gXt">
-                                <rect key="frame" x="0.0" y="0.0" width="375" height="812"/>
+                                <rect key="frame" x="0.0" y="0.0" width="375" height="736"/>
                             </imageView>
                             <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="login-logo" translatesAutoresizingMaskIntoConstraints="NO" id="DND-Tq-UgW">
-                                <rect key="frame" x="46" y="96" width="102" height="64"/>
+                                <rect key="frame" x="46" y="72" width="102" height="64"/>
                                 <constraints>
-                                    <constraint firstAttribute="width" constant="102" id="2Ol-3y-y5U"/>
-                                    <constraint firstAttribute="height" constant="64" id="cMK-fd-UoE"/>
+                                    <constraint firstAttribute="width" constant="102" id="S7U-iP-Yeb"/>
+                                    <constraint firstAttribute="height" constant="64" id="lDu-tI-Hwv"/>
                                 </constraints>
                             </imageView>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="FORGOT YOUR PASSWORD?" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Gnv-kr-uIj">
-                                <rect key="frame" x="7.6666666666666572" y="263" width="360" height="34"/>
-                                <constraints>
-                                    <constraint firstAttribute="height" constant="34" id="bGO-mw-u8k"/>
-                                </constraints>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="FORGOT YOUR PASSWORD?" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Gnv-kr-uIj">
+                                <rect key="frame" x="7.5" y="239" width="360" height="34"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="28"/>
                                 <color key="textColor" red="0.96999999999999997" green="0.80000000000000004" blue="0.02" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 <nil key="highlightedColor"/>
                             </label>
-                            <textField opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" text="john@gmail.com" borderStyle="roundedRect" adjustsFontSizeToFit="NO" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="V1v-eI-pb2">
-                                <rect key="frame" x="38" y="366" width="300" height="34"/>
+                            <textField opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="left" contentVerticalAlignment="center" text="john@gmail.com" borderStyle="roundedRect" adjustsFontSizeToFit="NO" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="V1v-eI-pb2">
+                                <rect key="frame" x="10" y="342" width="300" height="34"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
-                                <constraints>
-                                    <constraint firstAttribute="height" constant="34" id="KUs-ww-Sfq"/>
-                                    <constraint firstAttribute="width" constant="300" id="geK-Om-P9F"/>
-                                </constraints>
                                 <color key="textColor" red="0.99999600649999998" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 <fontDescription key="fontDescription" name=".AppleSystemUIFont" family=".AppleSystemUIFont" pointSize="14"/>
                                 <textInputTraits key="textInputTraits"/>
                             </textField>
-                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="login-button-with-bg-1" translatesAutoresizingMaskIntoConstraints="NO" id="iGh-lY-zmS">
-                                <rect key="frame" x="235" y="419" width="103" height="34"/>
-                                <constraints>
-                                    <constraint firstAttribute="width" constant="103" id="PRt-2v-zKa"/>
-                                    <constraint firstAttribute="height" constant="34" id="Xcd-6P-VTD"/>
-                                </constraints>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="login-button-with-bg-1" translatesAutoresizingMaskIntoConstraints="NO" id="iGh-lY-zmS">
+                                <rect key="frame" x="180" y="395" width="103" height="34"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                             </imageView>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Or sign in with:" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="r6k-Af-QVZ">
-                                <rect key="frame" x="123" y="569.66666666666663" width="129" height="24"/>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Or sign in with:" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="r6k-Af-QVZ">
+                                <rect key="frame" x="95.5" y="545.5" width="129" height="24"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="20"/>
                                 <color key="textColor" red="0.99999600649999998" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 <nil key="highlightedColor"/>
                             </label>
-                            <stackView opaque="NO" contentMode="scaleToFill" distribution="fillEqually" spacingType="standard" translatesAutoresizingMaskIntoConstraints="NO" id="QtN-Xp-C3i">
-                                <rect key="frame" x="74.333333333333329" y="605" width="226.66666666666669" height="50.666666666666629"/>
+                            <stackView opaque="NO" contentMode="scaleToFill" fixedFrame="YES" distribution="fillEqually" spacingType="standard" translatesAutoresizingMaskIntoConstraints="NO" id="QtN-Xp-C3i">
+                                <rect key="frame" x="48" y="581" width="232" height="51"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <subviews>
-                                    <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="login_button_okta" translatesAutoresizingMaskIntoConstraints="NO" id="55c-jR-fFS">
-                                        <rect key="frame" x="0.0" y="0.0" width="50.666666666666664" height="50.666666666666664"/>
-                                        <constraints>
-                                            <constraint firstAttribute="height" constant="50.609999999999999" id="GJP-RR-yQh"/>
-                                            <constraint firstAttribute="width" constant="50.609999999999999" id="mSm-fj-TFf"/>
-                                        </constraints>
+                                    <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" ambiguous="YES" image="login_button_okta" translatesAutoresizingMaskIntoConstraints="NO" id="55c-jR-fFS">
+                                        <rect key="frame" x="0.0" y="0.0" width="52" height="51"/>
                                     </imageView>
-                                    <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="login_button_office365" translatesAutoresizingMaskIntoConstraints="NO" id="O7R-IR-fJF">
-                                        <rect key="frame" x="58.666666666666671" y="0.0" width="50.666666666666671" height="50.666666666666664"/>
-                                        <constraints>
-                                            <constraint firstAttribute="height" constant="50.609999999999999" id="IPt-RG-YCn"/>
-                                            <constraint firstAttribute="width" constant="50.609999999999999" id="q6V-KQ-naP"/>
-                                        </constraints>
+                                    <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" ambiguous="YES" image="login_button_office365" translatesAutoresizingMaskIntoConstraints="NO" id="O7R-IR-fJF">
+                                        <rect key="frame" x="60" y="0.0" width="52" height="51"/>
                                     </imageView>
-                                    <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="login_button-google_plus" translatesAutoresizingMaskIntoConstraints="NO" id="LpK-TI-tK2">
-                                        <rect key="frame" x="117.33333333333333" y="0.0" width="50.666666666666671" height="50.666666666666664"/>
-                                        <constraints>
-                                            <constraint firstAttribute="height" constant="50.609999999999999" id="aAu-jq-Kra"/>
-                                            <constraint firstAttribute="width" constant="50.609999999999999" id="lWl-Ox-5QY"/>
-                                        </constraints>
+                                    <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" ambiguous="YES" image="login_button-google_plus" translatesAutoresizingMaskIntoConstraints="NO" id="LpK-TI-tK2">
+                                        <rect key="frame" x="120" y="0.0" width="52" height="51"/>
                                     </imageView>
-                                    <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="login_button_salesforce" translatesAutoresizingMaskIntoConstraints="NO" id="v8U-RZ-Oq8">
-                                        <rect key="frame" x="176" y="0.0" width="50.666666666666657" height="50.666666666666664"/>
-                                        <constraints>
-                                            <constraint firstAttribute="width" constant="50.609999999999999" id="mei-p1-TAZ"/>
-                                            <constraint firstAttribute="height" constant="50.609999999999999" id="y7H-AJ-kIS"/>
-                                        </constraints>
+                                    <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" ambiguous="YES" image="login_button_salesforce" translatesAutoresizingMaskIntoConstraints="NO" id="v8U-RZ-Oq8">
+                                        <rect key="frame" x="180" y="0.0" width="52" height="51"/>
                                     </imageView>
                                 </subviews>
                             </stackView>
-                            <stackView opaque="NO" contentMode="scaleToFill" distribution="equalCentering" translatesAutoresizingMaskIntoConstraints="NO" id="1lw-5F-TFP">
-                                <rect key="frame" x="80.666666666666686" y="503" width="214" height="15.666666666666629"/>
+                            <stackView opaque="NO" contentMode="scaleToFill" fixedFrame="YES" distribution="equalCentering" translatesAutoresizingMaskIntoConstraints="NO" id="1lw-5F-TFP">
+                                <rect key="frame" x="53" y="479" width="210" height="16"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <subviews>
-                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Remember your password?" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="LQ6-GL-RvI">
-                                        <rect key="frame" x="0.0" y="0.0" width="164.33333333333334" height="15.666666666666666"/>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" ambiguous="YES" text="Remember your password?" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="LQ6-GL-RvI">
+                                        <rect key="frame" x="0.0" y="0.0" width="164.5" height="16"/>
                                         <fontDescription key="fontDescription" type="system" pointSize="13"/>
                                         <color key="textColor" red="0.99999600649999998" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                         <nil key="highlightedColor"/>
                                     </label>
-                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Login &gt;" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="ACo-Er-gZS">
-                                        <rect key="frame" x="168.66666666666669" y="0.0" width="45.333333333333343" height="15.666666666666666"/>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" ambiguous="YES" text="Login &gt;" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="ACo-Er-gZS">
+                                        <rect key="frame" x="164.5" y="0.0" width="45.5" height="16"/>
                                         <fontDescription key="fontDescription" type="system" pointSize="13"/>
                                         <color key="textColor" red="0.96999999999999997" green="0.80000000000000004" blue="0.02" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                         <nil key="highlightedColor"/>
                                     </label>
                                 </subviews>
-                                <constraints>
-                                    <constraint firstAttribute="width" constant="214" id="Kz6-00-v90"/>
-                                    <constraint firstAttribute="height" constant="15" id="xDB-Qo-Ztx"/>
-                                </constraints>
                             </stackView>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Enter your email address and we will send you instructions on how to reset your password" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="2" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="ohF-CD-QSf">
-                                <rect key="frame" x="46" y="305" width="282" height="36"/>
-                                <constraints>
-                                    <constraint firstAttribute="height" constant="36" id="RKe-GS-6at"/>
-                                    <constraint firstAttribute="width" relation="lessThanOrEqual" constant="300" id="aeJ-fB-2MN"/>
-                                </constraints>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Enter your email address and we will send you instructions on how to reset your password" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="2" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="ohF-CD-QSf">
+                                <rect key="frame" x="19" y="281" width="282" height="36"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="13"/>
                                 <color key="textColor" red="0.99999600649999998" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 <nil key="highlightedColor"/>
@@ -129,26 +101,12 @@
                         </subviews>
                         <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                         <constraints>
-                            <constraint firstItem="QtN-Xp-C3i" firstAttribute="centerX" secondItem="6Tk-OE-BBY" secondAttribute="centerX" id="2U7-0C-Wof"/>
-                            <constraint firstItem="QtN-Xp-C3i" firstAttribute="top" secondItem="r6k-Af-QVZ" secondAttribute="bottom" constant="11" id="39O-gg-Vwh"/>
-                            <constraint firstItem="Gnv-kr-uIj" firstAttribute="top" secondItem="DND-Tq-UgW" secondAttribute="bottom" constant="103" id="6P3-yD-JO7"/>
-                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="iGh-lY-zmS" secondAttribute="trailing" constant="37" id="GJE-i0-HeN"/>
-                            <constraint firstItem="r6k-Af-QVZ" firstAttribute="centerX" secondItem="6Tk-OE-BBY" secondAttribute="centerX" id="IjG-5b-xVr"/>
-                            <constraint firstItem="V1v-eI-pb2" firstAttribute="centerX" secondItem="6Tk-OE-BBY" secondAttribute="centerX" id="Ojk-QB-E2F"/>
-                            <constraint firstItem="iH7-EJ-gXt" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leading" id="Qd6-qT-ayg"/>
-                            <constraint firstItem="r6k-Af-QVZ" firstAttribute="top" secondItem="1lw-5F-TFP" secondAttribute="bottom" constant="51" id="RJ8-F9-9vx"/>
-                            <constraint firstAttribute="bottom" secondItem="iH7-EJ-gXt" secondAttribute="bottom" id="XND-Bf-ppk"/>
-                            <constraint firstAttribute="trailing" secondItem="iH7-EJ-gXt" secondAttribute="trailing" id="ZC9-U2-fvw"/>
-                            <constraint firstItem="1lw-5F-TFP" firstAttribute="top" secondItem="iGh-lY-zmS" secondAttribute="bottom" constant="50" id="aps-Wi-tRt"/>
-                            <constraint firstItem="V1v-eI-pb2" firstAttribute="top" secondItem="ohF-CD-QSf" secondAttribute="bottom" constant="25" id="eCh-OV-QfT"/>
-                            <constraint firstItem="DND-Tq-UgW" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" constant="52" id="eMg-LQ-Rj1"/>
-                            <constraint firstItem="Gnv-kr-uIj" firstAttribute="centerX" secondItem="6Tk-OE-BBY" secondAttribute="centerX" id="g5D-a3-OJc"/>
-                            <constraint firstItem="DND-Tq-UgW" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="46" id="hjA-na-Yh3"/>
-                            <constraint firstItem="ohF-CD-QSf" firstAttribute="centerX" secondItem="6Tk-OE-BBY" secondAttribute="centerX" id="jTg-Px-dBh"/>
-                            <constraint firstItem="iH7-EJ-gXt" firstAttribute="top" secondItem="8bC-Xf-vdC" secondAttribute="top" id="jlP-CT-Bdg"/>
-                            <constraint firstItem="ohF-CD-QSf" firstAttribute="top" secondItem="Gnv-kr-uIj" secondAttribute="bottom" constant="8" id="k9a-Ly-twx"/>
-                            <constraint firstItem="1lw-5F-TFP" firstAttribute="centerX" secondItem="6Tk-OE-BBY" secondAttribute="centerX" id="v1y-nI-PQ0"/>
-                            <constraint firstItem="iGh-lY-zmS" firstAttribute="top" secondItem="V1v-eI-pb2" secondAttribute="bottom" constant="19" id="zio-fJ-RHI"/>
+                            <constraint firstItem="iH7-EJ-gXt" firstAttribute="bottom" secondItem="8bC-Xf-vdC" secondAttribute="bottom" constant="168" id="4EI-V9-bzs"/>
+                            <constraint firstItem="DND-Tq-UgW" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="46" id="Dag-G6-dbY"/>
+                            <constraint firstItem="iH7-EJ-gXt" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leading" id="Kel-Cl-Th9"/>
+                            <constraint firstItem="iH7-EJ-gXt" firstAttribute="trailing" secondItem="8bC-Xf-vdC" secondAttribute="trailing" constant="55" id="dAz-d1-Qkp"/>
+                            <constraint firstItem="DND-Tq-UgW" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" constant="52" id="tP8-q1-YNF"/>
+                            <constraint firstAttribute="top" secondItem="iH7-EJ-gXt" secondAttribute="top" id="v8t-DH-DGM"/>
                         </constraints>
                         <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
                     </view>
@@ -163,8 +121,8 @@
     </scenes>
     <resources>
         <image name="login-bg" width="375" height="667"/>
-        <image name="login-button-with-bg-1" width="137" height="45"/>
-        <image name="login-logo" width="136" height="85"/>
+        <image name="login-button-with-bg-1" width="154" height="51"/>
+        <image name="login-logo" width="153" height="96"/>
         <image name="login_button-google_plus" width="51" height="51"/>
         <image name="login_button_office365" width="51" height="51"/>
         <image name="login_button_okta" width="51" height="51"/>
